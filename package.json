@@ -2,6 +2,9 @@
   "name": "to-do-list-ts",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "16.13.0"
+  },
   "main": "app.ts",
   "scripts": {
     "client-install": "npm install --prefix client",
