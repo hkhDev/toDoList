@@ -4,11 +4,16 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const db = mysql.createConnection({
-  host: process.env.host,
-  user: process.env.user,
-  password: process.env.password,
-  database: process.env.database,
+  host: "ble5mmo2o5v9oouq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  user: "ae2lzow8zrsu97xc",
+  password: "s8a4cjf07lvmqs6d",
+  database: "clhrth8neqgj39np",
 });
+
+// host = ble5mmo2o5v9oouq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+// user = ae2lzow8zrsu97xc
+// password = s8a4cjf07lvmqs6d
+// database = clhrth8neqgj39np
 
 const app = express();
 
