@@ -15,6 +15,7 @@ declare global {
       password: string;
       database: string;
       PORT?: number;
+      NODE_ENV?: string;
     }
   }
 }
